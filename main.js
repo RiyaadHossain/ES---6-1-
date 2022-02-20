@@ -15,9 +15,14 @@ const riyad = {
 
 const { fullname, profession } = riyad;
 
-
 const { forntend } = riyad.workWith.framework;
 
 console.log(fullname, 'is a', profession, '. He works with', forntend)
 
 
+/* ========== Destructiong of Array ========== */
+const arry = ['First One', 'Second One', 'Third One', 'Forth One']
+const [a, b] = arry;
+/* If you set Extra array element than vairables - it'll take first two */
+
+console.log(`${a} and ${b}`) 
